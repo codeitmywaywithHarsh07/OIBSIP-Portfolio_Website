@@ -305,7 +305,7 @@
 
   div.content3{
     /* border: 1px solid black; */
-    margin-top: 5rem;
+    margin-top: 10rem 0px;
     /* background-color:rgba(235, 235, 235, 1); */
     padding-top:5%;
     width: 100%;
@@ -364,6 +364,7 @@
     right: 0;
     bottom: 0;
     width: 100%;
+    object-fit: cover;
     height: 100%;
   }
   div.protext1{
@@ -898,6 +899,51 @@
 
   
   /*----------Media Queries----------*/
+
+
+  @media screen and (max-width:850px)
+  {
+    
+    div.block1{
+      max-width:80%;
+    }
+
+    div.head-content1{
+      flex-flow:column wrap;
+      /* justify-content: center; */
+      /* column-gap:10rem; */
+    }
+    div.headtext{
+      flex: 50%;
+    }
+
+    /* div.text2{
+      top:-99px;
+      font-size: 120px;
+    } */
+    img.pic{
+      /* margin-top: 10%; */
+      width: 100%;
+      height: 10%;
+      flex: 50%;
+      margin: 10% 0 10% 0;
+
+    }
+
+    div.grid1 div{
+
+      width: 100%;
+      grid-column: 1/span 3;
+      float: none;
+  }
+
+  div.slides img{
+    height: auto;
+  }
+    
+  }
+  
+
   
   @media screen and (max-width:700px)
   {
@@ -985,48 +1031,6 @@
     }
   }
   
-  @media screen and (max-width:850px)
-  {
-    
-    div.block1{
-      max-width:80%;
-    }
-
-    div.head-content1{
-      flex-flow:column wrap;
-      /* justify-content: center; */
-      /* column-gap:10rem; */
-    }
-    div.headtext{
-      flex: 50%;
-    }
-
-    /* div.text2{
-      top:-99px;
-      font-size: 120px;
-    } */
-    img.pic{
-      /* margin-top: 10%; */
-      width: 100%;
-      height: 10%;
-      flex: 50%;
-      margin: 10% 0 10% 0;
-
-    }
-
-    div.grid1 div{
-
-      width: 100%;
-      grid-column: 1/span 3;
-      float: none;
-  }
-
-  div.slides img{
-    height: auto;
-  }
-    
-  }
-  
   
   @media screen and (max-width:480px)
   {
@@ -1077,5 +1081,104 @@
 
 
   }  
+
+
+  @media screen and (max-width:380px) {
+
+    div.readmore{
+      margin: 4rem auto 6rem auto;
+    }
+
+    img.pic{
+      margin: 2rem 0 6rem 0;
+    }
+
+    div.content3{
+      margin: 8rem auto;
+    }
+
+    a.scroll{
+      position: sticky;
+      bottom:0;
+    }
+
+    .scrollimg{
+      width: 1.5rem;
+    }
+    div.proimg1{
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    div.protext1{
+      font-size: 34px;
+    }
+
+    #more2{
+      margin: 3rem auto;
+    }
+
+    div.content6{
+      margin: 6rem 0px;
+      padding: 5rem 0px 7rem 0px;
+    }
+
+    div.content7{
+      margin: 9rem 0px 0px 0px;
+    }
+
+    div.cards{
+      margin-top: 9rem;
+    }
+
+    div.cards a{
+      width: 8rem;
+    }
+
+    div.quote{
+      width: 93vw;
+    }
+    
+
+    #skills{
+      padding: 5rem 0px;
+    }
+
+    div.grid1{
+      gap: 18vw;
+      margin: 7rem auto;
+    }
+
+    div.textform2{
+      margin: 2rem 10% 3.5rem 10%;
+    }
+
+    form{
+      margin-left: 2rem;
+    }
+
+    textarea{
+      width: 14.5rem;
+    }
+
+    .submit{
+      margin-bottom: 1rem;
+    }
+
+    div.social img{
+        margin: 1rem;
+    }
+
+    div.copyright{
+      padding: 1.5rem;
+    }
+
+    div.content{
+      margin-top: 9rem;
+    }
+    p{
+      text-align: justify;
+    }
+  }
   
   
