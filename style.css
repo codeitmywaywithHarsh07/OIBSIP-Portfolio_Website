@@ -152,7 +152,7 @@
     height:85%;
     margin:10% auto;
     transform:translate(0px,8%);
-    background-image:url(/Profile_photo.JPG);
+    background-image:url(Profile_photo.JPG);
     background-position:center center;
     background-size:cover;
   /*   background-attachment:fixed; */
@@ -356,7 +356,7 @@
   }
 
   div.proimg1 {
-    background-image: url(/100k+.png);
+    background-image: url(100k+.png);
     background-position: center center;
     background-size:cover;
     position: absolute;
@@ -401,7 +401,7 @@
   }
 
   div.proimg2 {
-    background-image: url(/Brown\ Aesthetic\ Simple\ Vlog\ YouTube\ Thumbnail.png);
+    background-image: url(Brown\ Aesthetic\ Simple\ Vlog\ YouTube\ Thumbnail.png);
     background-position: center center;
     background-size:cover;
     position: absolute;
@@ -422,7 +422,7 @@
   }
 
   div.proimg3 {
-    background-image: url(/maxresdefault.jpg);
+    background-image: url(maxresdefault.jpg);
     background-position: center center;
     background-size:cover;
     position: absolute;
@@ -445,7 +445,7 @@
 
 
   div.proimg4 {
-    background-image: url(/NIT\ SILCHAR.png);
+    background-image: url(NIT\ SILCHAR.png);
     background-position: right center;
     background-size:cover;
     position: absolute;
@@ -520,28 +520,28 @@
   }
 
   div.skill1{
-    background-image: url(/html-5.png);
+    background-image: url(html-5.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
   }
   
   div.skill2{
-    background-image: url(/css-3.png);
+    background-image: url(css-3.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   div.skill3{
-    background-image: url(/java-script.png);
+    background-image: url(java-script.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   div.skill4{
-    background-image: url(/40093.png);
+    background-image: url(40093.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -549,28 +549,28 @@
   
 
   div.skill5{
-    background-image: url(/1656733637logo-canva-png.png);
+    background-image: url(1656733637logo-canva-png.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
   }
   
   div.skill6{
-    background-image: url(/photoshop.png);
+    background-image: url(photoshop.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
   }
   
   div.skill7{
-    background-image: url(/python.png);
+    background-image: url(python.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
   }
   
   div.skill8{
-    background-image: url(/java.png);
+    background-image: url(java.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1049,7 +1049,7 @@
     height:85%;
     margin:10% auto;
     transform:translate(0px,8%);
-    background-image:url(/LinkTree/Profile_photo.JPG);
+    background-image:url(Profile_photo.JPG);
     background-position:center center;
     background-size:cover;
   /*   background-attachment:fixed; */
