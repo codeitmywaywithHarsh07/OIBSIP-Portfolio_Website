@@ -1032,23 +1032,20 @@
   }
   
   
-  @media screen and (max-width:480px)
+  /* @media screen and (max-width:480px)
   {
     
     div.bg{
     margin:10% auto;
-  /*   border:2px solid red; */
     width:300px;
     height:400px;
   }
 
   div.content1{
-    /*     flex-flow:column wrap; */
         margin:0px 0px 49% 0px;
       }
   
   div.im{
-  /*   border:1px solid black; */
     width:85%;
     height:85%;
     margin:10% auto;
@@ -1056,7 +1053,6 @@
     background-image:url(Profile_photo.JPG);
     background-position:center center;
     background-size:cover;
-  /*   background-attachment:fixed; */
   }
 
   div.project1,div.project2,div.project3,div.project4{
@@ -1080,10 +1076,10 @@
   }
 
 
-  }  
+  } */
 
 
-  @media screen and (max-width:380px) {
+  @media screen and (max-width:480px) {
 
     div.readmore{
       margin: 4rem auto 6rem auto;
